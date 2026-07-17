@@ -7,7 +7,7 @@ USER root
 
 RUN apk add --no-cache jq
 
-COPY --from=openbao-src /bin/bao /usr/local/bin/bao
+COPY --from=openbao-src /usr/bin/bao /usr/local/bin/bao
 
 # 戻す
 USER curl_user
