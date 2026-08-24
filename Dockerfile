@@ -1,4 +1,4 @@
-FROM openbao/openbao:2.6.1 AS openbao-src
+FROM openbao/openbao:2.6.2 AS openbao-src
 
 FROM curlimages/curl:8.21.0
 
