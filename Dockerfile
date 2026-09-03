@@ -1,6 +1,6 @@
 FROM openbao/openbao:2.6.2 AS openbao-src
 
-FROM curlimages/curl:8.21.0
+FROM curlimages/curl:8.22.0
 
 # ベースイメージは一般ユーザのためrootに変更
 USER root
